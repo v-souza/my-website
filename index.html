@@ -1,69 +1,45 @@
-import React from "react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import { motion } from "framer-motion";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanessa Souza's CV</title>
+</head>
+<body>
+    <header>
+        <h1>Vanessa Das Gracas Pereira de Souza</h1>
+        <p>Email: <a href="mailto:vsouza@bccrc.ca">vsouza@bccrc.ca</a></p>
+        <p>Phone: +1 778 859-2175</p>
+        <p>Location: Vancouver, British Columbia, Canada</p>
+    </header>
 
-export default function Home() {
-  return (
-    <div className="bg-gray-900 text-white min-h-screen">
-      {/* Hero Section */}
-      <section className="text-center py-20 bg-gradient-to-b from-blue-900 to-gray-900">
-        <motion.h1 className="text-5xl font-bold mb-4" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-          Dr. [Your Name]
-        </motion.h1>
-        <p className="text-lg text-gray-300">Postdoctoral Fellow | Cancer Genomics | Microbiome & Lung Cancer</p>
-        <div className="mt-6">
-          <Button className="mr-4">View Research</Button>
-          <Button variant="outline">Download CV</Button>
-        </div>
-      </section>
+    <section>
+        <h2>About Me</h2>
+        <p>I'm Vanessa, a postdoctoral researcher at the British Columbia Cancer Research Institute in Vancouver, Canada. My research focuses on cancer, lung cancer, thoracic diseases, and early detection.</p>
+        <p>I believe in giving back to the community, and I also run a small Etsy shop selling genetics-themed merchandise!</p>
+    </section>
 
-      {/* About Section */}
-      <section className="max-w-4xl mx-auto py-16 px-6 text-center">
-        <h2 className="text-3xl font-bold mb-6">About Me</h2>
-        <p className="text-gray-300">
-          Passionate about understanding the genetic and molecular mechanisms of lung cancer. Currently exploring the
-          role of the microbiome in early detection and therapeutic response.
-        </p>
-      </section>
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li>PhD in Genetics, São Paulo State University, Brazil (2019-2024)</li>
+            <li>MSc in Genetics, Federal University of Juiz de Fora, Brazil (2017-2019)</li>
+            <li>BSc in Biological Sciences, UFJF, Brazil (2013-2017)</li>
+        </ul>
+    </section>
 
-      {/* Research Section */}
-      <section className="bg-gray-800 py-16">
-        <div className="max-w-5xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-6">Research & Publications</h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            <Card>
-              <CardContent>
-                <h3 className="text-xl font-semibold">Lung Cancer & Microbiome</h3>
-                <p className="text-gray-400">Investigating microbial signatures for early detection.</p>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardContent>
-                <h3 className="text-xl font-semibold">Single-Cell Transcriptomics</h3>
-                <p className="text-gray-400">Deciphering tumor microenvironment interactions.</p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Research: Cancer, Respiratory diseases, Genomics, Bioinformatics</li>
+            <li>Programming: R, Python, Linux/BASH</li>
+            <li>Techniques: DNA/RNA extraction, CRISPR, Sequencing</li>
+        </ul>
+    </section>
 
-      {/* Contact Section */}
-      <section className="py-16 text-center">
-        <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
-        <div className="flex justify-center gap-6 text-3xl">
-          <a href="https://github.com/v-souza" target="_blank" className="text-gray-400 hover:text-white">
-            <FaGithub />
-          </a>
-          <a href="https://linkedin.com/in/v-souza" target="_blank" className="text-gray-400 hover:text-white">
-            <FaLinkedin />
-          </a>
-          <a href="mailto:your.email@example.com" className="text-gray-400 hover:text-white">
-            <FaEnvelope />
-          </a>
-        </div>
-      </section>
-    </div>
-  );
-}
+    <section>
+        <h2>Research Experience</h2>
+        <p>Postdoctoral Fellowship at BC Cancer Research Centre (2024-Present)</p>
+    </section>
+</body>
+</html>
