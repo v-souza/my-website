@@ -1,121 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vanessa Souza</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 2rem;
-        }
-        header h1 {
-            margin: 0;
-        }
-        section {
-            padding: 2rem;
-        }
-        section h2 {
-            margin-top: 0;
-        }
-        .bio {
-            font-size: 1.2rem;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .skills ul, .education ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .skills li, .education li {
-            margin: 10px 0;
-        }
-        .contact {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-        }
-        .contact a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 1.5rem;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background-color: #333;
-            color: #fff;
-        }
-    </style>
-</head>
-<body>
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-    <header>
-        <h1>Vanessa Souza</h1>
-        <p>Postdoctoral Fellow at BC Cancer Research Centre</p>
-    </header>
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
 
-    <section id="about-me">
-        <h2>About Me</h2>
-        <p class="bio">
-            I'm Vanessa, a postdoctoral researcher at the British Columbia Cancer Research Institute in Vancouver, Canada. My research focuses on cancer, lung cancer, thoracic diseases, and early detection.
-            I'm passionate about improving the healthcare landscape, especially in underserved regions.
-        </p>
-    </section>
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills">
-            <ul>
-                <li><i class="fas fa-check"></i> Cancer research and genomics</li>
-                <li><i class="fas fa-check"></i> Bioinformatics and data analysis (R, Python)</li>
-                <li><i class="fas fa-check"></i> Cell culture, sequencing technologies</li>
-                <li><i class="fas fa-check"></i> CRISPR/Cas9 gene editing</li>
-            </ul>
-        </div>
-    </section>
+h2 {
+    color: #2c3e50;
+    font-size: 28px;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
+}
 
-    <section id="education">
-        <h2>Education</h2>
-        <div class="education">
-            <ul>
-                <li><strong>PhD in Genetics</strong> - São Paulo State University (2019-2024)</li>
-                <li><strong>MSc in Genetics</strong> - Federal University of Juiz de Fora (2017-2019)</li>
-                <li><strong>BSc in Biological Sciences</strong> - Federal University of Juiz de Fora (2013-2017)</li>
-            </ul>
-        </div>
-    </section>
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
 
-    <section id="research">
-        <h2>Research Experience</h2>
-        <p class="bio">
-            Currently, I am focusing on the microbiome for early detection and therapy of lung cancer at BC Cancer. During my PhD, I worked on biomarkers for late-stage diagnosis of lung cancer.
-        </p>
-    </section>
+ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-    <section id="contact">
-        <div class="contact">
-            <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:vsouza@bccrc.ca">vsouza@bccrc.ca</a></p>
-            <p>Phone: +1 778 859-2175</p>
-        </div>
-    </section>
+ul li {
+    margin: 10px 0;
+}
 
-    <footer>
-        <p>&copy; 2025 Vanessa Souza. All rights reserved.</p>
-    </footer>
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
 
-</body>
-</html>
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
