@@ -1,7 +1,59 @@
+/* Body font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
 
-<title>Embedded Style Sheet</title>
+/* Main container */
+.main-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-<link rel="stylesheet" href="https://github.com/nikita-telkar/Rmd_website/blob/master/academicons-1.9.1/css/academicons.css">
+/* Header */
+h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-@import url('https://github.com/nikita-telkar/Rmd_website/blob/master/academicons-1.9.1/css/academicons.min.css');
+/* Section headings */
+h2, h3 {
+    font-size: 24px;
+    color: #444;
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Skill list */
+.skills {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills li {
+    padding-left: 1em;
+    position: relative;
+}
+
+.skills li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: green;
+}
 
